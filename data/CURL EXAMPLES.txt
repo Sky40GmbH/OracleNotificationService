@@ -1,0 +1,14 @@
+
+
+FIND ALL:
+
+curl localhost:8888/api/subscription
+
+
+SUBSCRIBE:
+
+curl -d name=test -d url=http://test.com -d timeout=900 localhost:8888/api/subscription
+
+UNSUBSCRIBE:
+
+curl -X "DELETE" localhost:8888/api/subscription/{TOKEN}
