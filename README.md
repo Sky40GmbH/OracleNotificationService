@@ -11,9 +11,9 @@ Abstrakt/Anriss:
 ---------------
 Dieses Projekt besteht aus zwei Anwendungen: 
 
-Einem Service namens `OracleNotificationService` die Veränderung von Tabellen einer *Oracle 10g Datenbank* (oder höher) überwacht und bei Änderungen RESTful diese Nachrichten sendet. 
+Einem Service namens `OracleNotificationService`, der die Veränderung von Tabellen einer *Oracle 10g Datenbank* (oder höher) überwacht und bei Änderungen RESTful diese als Nachrichten sendet. 
 
-Einem Service `OracleNotificationConsumer` der diese Nachrichten (ebenfalls RESTful) konsumiert, d.h. empfängt und anzeigt. 
+Einem Service `OracleNotificationConsumer` der Nachrichten über Änderungen (ebenfalls RESTful) konsumiert, d.h. empfängt und anzeigt. 
 
 Ziel:
 ---------------------------------
