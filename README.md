@@ -19,3 +19,5 @@ Ziel:
 ---------------------------------
 Ziel des Projektes ist es, zu zeigen dass man auch ohne Polling beliebige Tabellen der Oracle DB auf Änderungen überwachen kann, um diese Änderungen ad-hoc als Nachrichten (z.B. auf einem *Enterprise Service Bus*) in der Service-Landschaft zu verteilen.   
 
+Das [Whitepaper](https://github.com/Sky40GmbH/OracleNotificationService/raw/master/docs/Sky4.0%20GmbH%20-%20ONS%20Whitepaper.pdf) zu dieser Demo befindet sich im Ordner `docs`.
+
